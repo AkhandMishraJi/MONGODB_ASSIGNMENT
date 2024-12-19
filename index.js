@@ -15,7 +15,7 @@ function readfile(filename) {try {
 }
 }
 function filenameinput() {
-    rl.question(`Please Tell Question No. Without Space(Like-Question1)(Upto Question 1 to 6):` , (file)=>{
+    rl.question(`Please Tell Question No. Without Space(Like-Question1)(Upto Question 1 to 13):` , (file)=>{
         const readfilecontent = readfile(file)
         rl.close()
     })
