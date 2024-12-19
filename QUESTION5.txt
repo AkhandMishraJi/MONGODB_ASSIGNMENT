@@ -1,0 +1,3 @@
+//TO FIND THE CUSTOMER WHO HAVE MADE PURCHASES MORE THAN 500:
+    db.Customers.find({ "purchases.amount": { $gt: 500 } })
+

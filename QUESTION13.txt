@@ -1,0 +1,5 @@
+//TO UPDATE THE EXPERIENCE OF TEACHER NAME SUKESH:
+    db.Teachers.updateOne(
+    { name: "SUKESH" },
+    { $set: { experience: 9 } }
+    )

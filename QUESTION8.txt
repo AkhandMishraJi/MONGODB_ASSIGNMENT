@@ -1,0 +1,6 @@
+//TO INSERT MANY STUDENT DOCUMENTS IN THE Students COLLECTION:
+db.Students.insertMany([
+  { name: "ROHAN", age: 14, grade: "8" },
+  { name: "SOHAN", age: 15, grade: "9" },
+  { name: "MOHAN", age: 16, grade: "10" }
+]);

@@ -1,0 +1,7 @@
+//TO CREATE A NEW CUSTOMER DOCUENT IN CUSTOMERS COLLECTION:
+    db.Customers.insertOne({
+    name: "JHON DOE",
+    age: 30,
+    address: "MOUNTAIN VIEW USA",
+    purchases:[]
+    });

@@ -1,0 +1,5 @@
+//TO UPDATE THE ADDRESS OF A CUSTOMER NAME JHON DOE:
+    db.Customers.updateOne(
+    { name: "JHON DOE" },
+    { $set: { address: "NEW YORK" } }
+    );

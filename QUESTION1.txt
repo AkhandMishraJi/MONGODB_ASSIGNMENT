@@ -1,0 +1,16 @@
+TASK 1:
+    use PWSKILLS
+TASK 2:
+    db.createCollection("Employees")
+TASK 3:
+    db.Employees.insertMany( [
+      { emp_name: "Lokesh", post: "Web Developer" , salary:50000},
+      { emp_name: "Mukesh", post: "App Developer",salary:90000 },
+      { emp_name: "Sukesh" , post: "UI Designer" ,salary:150000}
+   ] );
+ TASK 4:
+    db.Employees.find()
+ TASK 5:
+    db.Employees.drop()
+ TASK6:
+    db.dropDatabase()

@@ -1,0 +1,7 @@
+//TO FIND STUDENTS WITH AGE 15 OR GRADE 9:
+db.Students.find({
+  $or: [
+    { age: { $gt: 15 } },
+    { grade: "9" }
+  ]
+})

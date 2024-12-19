@@ -1,0 +1,6 @@
+//TO INSERT MANY TEACHER DOCUMENTS IN THE Teachers COLLECTION:
+    db.Teachers.insertMany([
+  { name: "MUKESH", subject: "Mathematics", experience: 10 },
+  { name: "SUKESH", subject: "Science", experience: 8 },
+  { name: "RUPESH", subject: "English", experience: 12 }
+]);

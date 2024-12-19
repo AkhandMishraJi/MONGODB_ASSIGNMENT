@@ -1,0 +1,2 @@
+//CREATE A NEW DATABASE NAME SchoolDB:
+    use SchoolDB

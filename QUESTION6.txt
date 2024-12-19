@@ -1,0 +1,2 @@
+// TO REMOVE A CUSTOMER NAME JHON DOE:
+    db.Customers.deleteOne({ name: "JHON DOE" });

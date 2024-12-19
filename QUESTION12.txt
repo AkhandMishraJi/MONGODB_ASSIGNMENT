@@ -1,0 +1,7 @@
+//TO FIND A TEACHER WITH A SPECIFIC SUBJECT OR MORE THAN THE GIVEN EXPERIENCE:
+    db.Teachers.find({
+    $or: [
+        { subject: "Mathematics" },
+        { experience: { $gt: 10 } }
+    ]
+    })
